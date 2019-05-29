@@ -1,6 +1,6 @@
 /**
  * fullPage 2.6.5
- * https://github.com/alvarotrigo/fullPage.js
+ * //github.com/alvarotrigo/fullPage.js
  * MIT licensed
  *
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
@@ -960,8 +960,8 @@
         /**
          * Detecting mousewheel scrolling
          *
-         * http://blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
-         * http://www.sitepoint.com/html5-javascript-mouse-wheel/
+         * //blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
+         * //www.sitepoint.com/html5-javascript-mouse-wheel/
          */
         var prevTime = new Date().getTime();
 
@@ -1562,7 +1562,7 @@
                 }
             }else{
                 //in order to call the functions only when the resize is finished
-                //http://stackoverflow.com/questions/4298612/jquery-how-to-call-resize-event-only-once-its-finished-resizing
+                ////stackoverflow.com/questions/4298612/jquery-how-to-call-resize-event-only-once-its-finished-resizing
                 clearTimeout(resizeId);
 
                 resizeId = setTimeout(function(){
@@ -1994,7 +1994,7 @@
         /**
         * Checks for translate3d support
         * @return boolean
-        * http://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
+        * //stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
         */
         function support3d() {
             var el = document.createElement('p'),
@@ -2076,7 +2076,7 @@
 
         /*
         * Returns and object with Microsoft pointers (for IE<11 and for IE >= 11)
-        * http://msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
+        * //msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
         */
         function getMSPointer(){
             var pointer;
@@ -2096,7 +2096,7 @@
 
         /**
         * Gets the pageX and pageY properties depending on the browser.
-        * https://github.com/alvarotrigo/fullPage.js/issues/194#issuecomment-34069854
+        * //github.com/alvarotrigo/fullPage.js/issues/194#issuecomment-34069854
         */
         function getEventsPage(e){
             var events = [];
