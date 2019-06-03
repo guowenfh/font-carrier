@@ -76,9 +76,26 @@
   <h1>测试-空格对比</h1>
   <div>精 简</div>
   <div class="font-3">精 简</div>
+
+
 </div>
-
-
+<style type="text/css">
+  @font-face {
+    font-family: 'font-4';
+    src:url('./font-4.eot'); /* IE9 */
+    src: url('./font-4.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./font-4.woff2') format('woff2'),
+    url('./font-4.woff') format('woff'),
+    url('./font-4.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('./font-4.svg#iconfont'); /* iOS 4.1- */
+  }
+  .font-4{
+    font-family:"font-4";font-size:16px;font-style:normal;
+  }
+</style>
+<div>
+  <div class="font-4">纯空白 迷你简硬笔楷书 字体测试1，2，3</div>
+</div>
 <div>
 
   <h1>测试-从已有字体导出svg</h1>

@@ -157,12 +157,8 @@ glyph 字形对象代表了具体某个字的信息。包括下面这些参数�
 
 > 这边注意的是 `d` 这个参数是转化后的path序列，不建议在新建 glyph 对象的时候使用。建议使用 SVG 替代 `d`，内部会自动帮忙转换成对应的 `d` 参数。
 
-#### `glyph.getFont()`
-获取当前字形对应的字体对象
 
-返回对应的字体对象
-
-#### `glyph.setFont(font)`
+#### `glyph.setViewbox(font.__viewbox)`
 设置当前 glyph 的字体，会按照新的字体做一系列的变换
 
 
