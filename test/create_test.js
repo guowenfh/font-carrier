@@ -1,12 +1,12 @@
-const fontCarrier2 = require('../lib/index')
+var fontCarrier2 = require('../lib/index')
 
-const options = {
+var options = {
   id: 'font-4',
   horizAdvX: 256,
   vertAdvY: 256
 }
 
-const fontface = {
+var fontface = {
   fontFamily: 'font-4',
   fontWeight: '400',
   fontStretch: 'normal',
@@ -15,7 +15,7 @@ const fontface = {
   descent: -61
 }
 
-const glyphMap = {
+var glyphMap = {
   '&#x7EAF;': {
     unicode: '&#x7EAF;',
     glyphName: 'uni7EAF',
@@ -186,11 +186,11 @@ const glyphMap = {
   }
 }
 
-const font = fontCarrier2.create(options)
+var font = fontCarrier2.create(options)
 font.setFontface(fontface)
 
 Object.keys(glyphMap).forEach(key => {
-  let tmplGlyph = new fontCarrier2.Glyph(glyphMap[key])
+  var tmplGlyph = new fontCarrier2.Glyph(glyphMap[key])
   tmplGlyph.__viewbox = font.__viewbox
   font.setGlyph(key, tmplGlyph)
 })
